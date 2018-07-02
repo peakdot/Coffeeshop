@@ -8,6 +8,8 @@ import java.sql.Statement;
 
 public class Model {
 
+	Connection con1 = null;
+	Connection con2 = null;
 	Connection con = null;
 	Statement st = null;
 	ResultSet rs = null;
